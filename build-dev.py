@@ -23,6 +23,10 @@ for directory in directories:
         ANGULAR_PROJECT_PATH = os.path.join(CURRENT_DIRECTORY, directory)
         DIST_PATH = os.path.join(ANGULAR_PROJECT_PATH, 'dist', directory)
 
+
+"""
+    Path of Flask.
+"""
 FLASK_STATIC_PATH = os.path.join(CURRENT_DIRECTORY, 'static')
 FLASK_TEMPLATES_PATH = os.path.join(CURRENT_DIRECTORY, 'templates')
 
