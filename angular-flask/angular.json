@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-flask"
+    }
+  },
+  "defaultProject": "angular-flask",
+  "cli": {
+    "analytics": "c6cbb49f-f0d5-4c0c-90a1-28500770261a"
+  }
 }
