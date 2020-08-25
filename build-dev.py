@@ -2,15 +2,18 @@ import os
 import subprocess
 import time
 
-CURRENT_DIRECTORY = os.getcwd()
-directories = os.listdir(CURRENT_DIRECTORY)
-NON_ANGULAR_DIRS = ['static', 'templates', 'venv']
 
 """
     The file-path is and that gives us a bit of context of 
     where we are directories is going to be equal to the list of 
-    directories
+    directories and files that's in this folder and
+    what I have a constant set to static templates and vans
+    which is the ones we 
 """
+CURRENT_DIRECTORY = os.getcwd()
+directories = os.listdir(CURRENT_DIRECTORY)
+NON_ANGULAR_DIRS = ['static', 'templates', 'venv']
+
 for directory in directories:
     if "." not in directory and directory not in NON_ANGULAR_DIRS:
         ANGULAR_PROJECT_PATH = os.path.join(CURRENT_DIRECTORY, directory)
