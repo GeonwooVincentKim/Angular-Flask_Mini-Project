@@ -6,7 +6,8 @@ import time
 """
     The file-path is and that gives us a bit of context of 
     where we are directories is going to be equal to the list of 
-    directories and files that's in this folder and
+    directories and files that's in this folder.
+    
     what I have a constant set to static templates and vans
     which is the ones we want to ignore.
 """
