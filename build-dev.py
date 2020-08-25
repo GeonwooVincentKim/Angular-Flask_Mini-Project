@@ -6,6 +6,11 @@ CURRENT_DIRECTORY = os.getcwd()
 directories = os.listdir(CURRENT_DIRECTORY)
 NON_ANGULAR_DIRS = ['static', 'templates', 'venv']
 
+"""
+    The file-path is and that gives us a bit of context of 
+    where we are directories is going to be equal to the list of 
+    directories
+"""
 for directory in directories:
     if "." not in directory and directory not in NON_ANGULAR_DIRS:
         ANGULAR_PROJECT_PATH = os.path.join(CURRENT_DIRECTORY, directory)
