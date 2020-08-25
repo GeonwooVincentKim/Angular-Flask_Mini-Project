@@ -13,7 +13,7 @@ import { PersonComponent } from './person/person.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
