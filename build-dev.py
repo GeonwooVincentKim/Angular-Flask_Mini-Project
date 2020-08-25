@@ -8,7 +8,7 @@ import time
     where we are directories is going to be equal to the list of 
     directories and files that's in this folder and
     what I have a constant set to static templates and vans
-    which is the ones we 
+    which is the ones we want to ignore.
 """
 CURRENT_DIRECTORY = os.getcwd()
 directories = os.listdir(CURRENT_DIRECTORY)
